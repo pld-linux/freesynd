@@ -1,0 +1,11 @@
+--- freesynd/src/file.cpp~	2006-12-21 08:20:32.000000000 +0100
++++ freesynd/src/file.cpp	2006-12-27 22:47:30.119833209 +0100
+@@ -31,7 +31,7 @@
+ #include "file.h"
+ #include "dernc.h"
+ 
+-char File::_path[240] = "./data/";
++char File::_path[240] = "/usr/share/freesynd/data/";
+ 
+ 
+ const char *File::fileFullPath(const char *filename, bool uppercase) {
