@@ -1,3 +1,4 @@
+# TODO: optflags
 Summary:	Reimplementation of the classic Bullfrog game, Syndicate
 Summary(pl):	Reimplementacja klasycznej gry Syndicate firmy Bullfrog
 Name:		freesynd
@@ -30,10 +31,10 @@ FreeSynd to reimplementacja klasycznej gry Syndicate firmy Bullfrog.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name}}
+
 install src/%{name} $RPM_BUILD_ROOT%{_bindir}
-cp -a data/ $RPM_BUILD_ROOT%{_datadir}/%{name}
+cp -a data $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
