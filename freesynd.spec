@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Reimplementation of the classic Bullfrog game, Syndicate
-Summary(pl):	Reimplementacja klasycznej gry Syndicate firmy Bullfrog
+Summary(pl.UTF-8):   Reimplementacja klasycznej gry Syndicate firmy Bullfrog
 Name:		freesynd
 Version:	0.1
 Release:	0.1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 FreeSynd is a reimplementation of the classic Bullfrog game,
 Syndicate.
 
-%description -l pl
+%description -l pl.UTF-8
 FreeSynd to reimplementacja klasycznej gry Syndicate firmy Bullfrog.
 
 %prep
