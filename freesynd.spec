@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Reimplementation of the classic Bullfrog game, Syndicate
-Summary(pl.UTF-8):   Reimplementacja klasycznej gry Syndicate firmy Bullfrog
+Summary(pl.UTF-8):	Reimplementacja klasycznej gry Syndicate firmy Bullfrog
 Name:		freesynd
 Version:	0.1
 Release:	0.1
