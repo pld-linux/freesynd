@@ -12,6 +12,7 @@ Patch0:		%{name}-FHS.patch
 URL:		http://freesynd.sourceforge.net/
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	libstdc++-devel
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
